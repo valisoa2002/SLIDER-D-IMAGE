@@ -1,0 +1,48 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins';
+}
+
+img{
+    height: 275px;
+    width: 100%;
+}
+
+.imageContent{
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    background: rgba(0,0,0,0.9);
+    z-index: 100;
+}
+
+.displayImage{
+    height: 70vh;
+    width: 50vw;
+    justify-content: center;
+    margin-top: 19vh;
+    margin-left: 24vw;
+    z-index: 200;
+}
+
+.bi-arrow-left-circle{
+    position: fixed;
+    cursor: pointer;
+    font-size: 65px;
+    color: grey;
+    left: 0;
+    top:50vh
+}
+.bi-arrow-right-circle{
+    position: fixed;
+    cursor: pointer;
+    font-size: 65px;
+    color: grey;
+    right: 0;
+    top:50vh
+}
